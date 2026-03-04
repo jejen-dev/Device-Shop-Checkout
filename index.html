@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Favicon -->
+    <link rel="icon" href="resources/favicon.png" type="image/png" sizes="96x96" />
+
+    <!-- Google Fonts - Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- CSS File -->
+    <link rel="stylesheet" href="style.css">
+
+    <title>Device Shop Checkout | devChallenges.io</title>
+</head>
+
+<body>
+    <!-- Background Image -->
+    <div class="hero-background"></div>
+    <div class="hero-overlay"></div>
+
+    <!-- Main Container -->
+    <div class="main-container">
+        <!-- Header -->
+        <div class="page-header">
+            <h1>Checkout</h1>
+            <div class="items-count">3 ITEMS</div>
+        </div>
+
+        <!-- Content Card -->
+        <div class="content-card">
+            <div class="grid-2">
+                <!-- Left Column - Products -->
+                <div class="left-col">
+                    <!-- Products wrapper yang bisa di-scroll -->
+                    <div class="products-wrapper">
+                        <div class="products">
+                            <!-- iPhone 12 Pro -->
+                            <div class="product-item">
+                                <div class="product-image-container">
+                                    <img class="product-image iphone" alt="iPhone 12 Pro Gold">
+                                </div>
+                                <div class="product-info">
+                                    <h3>iPhone 12 Pro</h3>
+                                    <div class="product-color">Golden</div>
+                                    <div class="product-quantity">x 1</div>
+                                </div>
+                                <div class="product-price-section">
+                                    <div class="product-price">$999.00</div>
+                                    <div class="close-icon"></div>
+                                </div>
+                            </div>
+
+                            <!-- Apple Watch -->
+                            <div class="product-item">
+                                <div class="product-image-container">
+                                    <img class="product-image watch" alt="Apple Watch Blue">
+                                </div>
+                                <div class="product-info">
+                                    <h3>Apple Watch</h3>
+                                    <div class="product-color">Blue</div>
+                                    <div class="product-quantity">x 1</div>
+                                </div>
+                                <div class="product-price-section">
+                                    <div class="product-price">$399.00</div>
+                                    <div class="close-icon"></div>
+                                </div>
+                            </div>
+
+                            <!-- iMac -->
+                            <div class="product-item">
+                                <div class="product-image-container">
+                                    <img class="product-image imac" alt="iMac Green">
+                                </div>
+                                <div class="product-info">
+                                    <h3>iMac</h3>
+                                    <div class="product-color">Green</div>
+                                    <div class="product-quantity">x 1</div>
+                                </div>
+                                <div class="product-price-section">
+                                    <div class="product-price">$1199.00</div>
+                                    <div class="close-icon"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Coupon (absolute di bottom) -->
+                    <div class="coupon-section">
+                        <input type="text" class="coupon-input" placeholder="Enter coupon code">
+                        <button class="btn-apply">Apply Coupon</button>
+                    </div>
+
+                    <!-- Summary (absolute di bottom) -->
+                    <div class="summary-section">
+                        <div class="summary-row">
+                            <span>Sub total</span>
+                            <span>$2597.00</span>
+                        </div>
+                        <div class="summary-row">
+                            <span>Tax</span>
+                            <span>$623.28</span>
+                        </div>
+                        <div class="summary-row total">
+                            <span>Total</span>
+                            <span>$3220.28</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Right Column - Contact -->
+                <div class="right-col">
+                    <div class="contact-section">
+                        <h2>Contact Information</h2>
+
+                        <div class="form-group">
+                            <label for="fullname">First & Last name</label>
+                            <input type="text" id="fullname" class="form-control" placeholder="Enter first & last name">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">Email Address</label>
+                            <input type="email" id="email" class="form-control" placeholder="Enter email address">
+                        </div>
+
+                        <div class="country-postal">
+                            <div class="form-group">
+                                <label for="country">Country</label>
+                                <select id="country" class="country-select">
+                                    <option value="Finland" selected>Finland</option>
+                                    <option value="Sweden">Sweden</option>
+                                    <option value="Norway">Norway</option>
+                                    <option value="Denmark">Denmark</option>
+                                </select>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="postal">Postal Code</label>
+                                <input type="text" id="postal" class="form-control" placeholder="00270">
+                            </div>
+                        </div>
+
+                        <button class="btn-continue">Continue</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Author Info -->
+        <div class="author-info">
+            Coded by <a href="#">Jejen</a> | Challenge by
+            <a href="https://www.devchallenges.io?ref=challenge" target="_blank">devChallenges.io</a>
+        </div>
+    </div>
+</body>
+
+</html>
