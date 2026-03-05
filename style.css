@@ -88,7 +88,7 @@ body {
     padding: 0 var(--spacing-2xl);
     position: relative;
     z-index: 10;
-    display: flex;
+    display: absolute;
     flex-direction: column;
 }
 
@@ -379,7 +379,7 @@ body {
 
 /* Summary section*/
 .summary-section {
-    margin-top: var(--spacing-xl);
+    margin-top: var(--spacing-md);
     background: var(--color-border-light);
     flex-shrink: 0;
     padding-bottom: var(--spacing-sm);
@@ -452,7 +452,7 @@ body {
 .country-postal {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: var(--spacing-sm);
+    gap: var(--spacing-lg);
 }
 
 .country-select {
