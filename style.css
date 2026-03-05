@@ -768,7 +768,8 @@ body {
 
     .country-postal {
         grid-template-columns: 1fr;
-        margin-top: var(--spacing-xl);
+        margin-top: var(--spacing-xs);
+        gap: var(--spacing-xs);
     }
 
     .product-image.iphone {
@@ -784,5 +785,9 @@ body {
     .product-image.imac {
         width: 55px;
         height: 48px;
+    }
+
+    .btn-continue {
+        margin-top: var(--spacing-xl);
     }
 }
