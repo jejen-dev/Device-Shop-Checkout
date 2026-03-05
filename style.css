@@ -241,7 +241,7 @@ body {
     }
 
     .product-image.watch {
-        content: url('resources/Apple-watch@2x.png');
+        content: url('resources/Apple-watchx2.png');
     }
 
     .product-image.imac {
@@ -301,7 +301,7 @@ body {
     border-radius: 50%;
     align-self: flex-end;
     margin-bottom: 2px;
-    margin-top: 30px;
+    margin-top: 38px;
     line-height: 24px;
 }
 
@@ -747,10 +747,10 @@ body {
     .close-icon {
         width: 20px;
         height: 20px;
-        align-self: center;
-        margin-top: 0;
-        margin-bottom: 0;
-        line-height: 20px;
+        align-self: flex-end;
+        margin-top: 30px;
+        margin-bottom: 2px;
+        line-height: 24px;
     }
 
     .close-icon::before,
